@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!--- Nav ---> 
+    <nav class="navbar navbar-expand-lg" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand  fw-bold" href="/index.html">  Central Bank <span style="color: #0569b9;"> </br>Independence Index </span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" style="border: 0;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/docs.html">Documentation</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/database.html">Database</a>
+              </li>
+
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <!--- Hero Section ---> 
+      <div class="p-5 mb-4  rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="col-md-8 display-6 fw-bold" style="color: #0569b9;">The Central Bank Independence Index</h1>
+          <p class="col-md-10 fs-5">This project aims to create a data infrastructure for both academics and policymakers. The database contains information on the CBIE index in (Romelli, 2022), as well as the most commonly used indices of central bank independence (see Grilli, Masciandaro and Tabellini, 1991 and Cukierman, Webb and Neyapti, 1992, among others) for 154 countries between 1972 and 2017. The data draw on central bank legislations obtained from central bank websites and other sources.</p>
+    
+        </div>
+      </div>
+      
+      <!--- Data & Doc section ---> 
+      <div class="row align-items-md-stretch">
+            <!--- Data Block ---> 
+            <div class="col-md-6" style = "margin-bottom: 1.5em;">
+            <div class="h-100 text-white p-5 rounded-3" style="background-color: #0569b9;">
+                <h2>Data</h2>
+                <p>Download the latest and most up to date version of the the data available using the buttons down below.</p>
+
+                <div style=" text-align: center;">
+                    
+                    <a href="https://github.com/daviesdigital/Central-Bank-Independence-Index/blob/main/Romelli_2022_CBIData.dta?raw=true">
+                      <button class="btn btn-warning" type="button" style=" margin-right: 10px; padding: 6px 30px;">STATA</button>
+                    </a>
+
+                    <button class="btn btn-outline-light" type="button" style="margin-left: 10px;padding: 6px 30px;">EXCEL</button>
+                </div>
+            </div>
+            </div>
+
+            <!--- Documentation Block ---> 
+            <div class="col-md-6" style = "margin-bottom: 1.5em;">
+            <div class="h-100 p-5 text-black rounded-3" style="background-color: #eeeeef;">
+                <h2>Documentation</h2>
+                <p>For a detailed description of the construction of this data follow the link below.  </p>
+
+                <div style="text-align: center;">
+
+                    <a href="/docs.html">
+                    <button class="btn btn-outline-dark" type="button" style="text-align: center;">Documentation</button>
+                    </a>
+                    
+                    
+                </div>
+            </div>
+            </div>
+
+            
+
+      </div>
+
+      <!--Info Section-->
+        <div style="padding: 5% 0; ">
+              <h2 class="col-md-6" style=" border-bottom: solid 3px #0569b9; padding-bottom: 0.5em; margin-bottom: 1em;">Contact</h2>
+            
+              <div style="width: 205px;">
+                <img src="https://davideromelli.files.wordpress.com/2018/12/DRomelli3modified.jpg?w=540&h=660" alt="davideromelli"  style="width: 205px; border-radius: 0.5rem 0.5rem 0  0  ;">
+    
+                <div style="background-color: #eeeeef;; text-align: center; padding: 20px 0 4px 0; border-radius: 0  0 0.5rem 0.5rem;">
+                
+                  <a href="https://davideromelli.com/" style="text-decoration: none;">
+                    <h5 style="color: #0569b9; line-height: 0.8;" > 
+                      <b> Davide Romelli </b> 
+                    </h5>
+                  </a>
+    
+                  <p>Trinity College Dublin  </br> IMTCD </p>
+                </div>
+    
+                <a href="" style="display: flex; text-decoration: none; align-items: center; margin-top: 10px; color: #0569b9; margin: 0;"> 
+
+                  <div style="display: flex; margin: 0; margin-top: 5px; justify-content: center;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0569b9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6" ></polyline></svg> 
+                  
+                  <a style="text-decoration: none; margin-left: 5px; margin-bottom: 3px; color: #0569b9;" href = "mailto: romellid@tcd.ie">romellid@tcd.ie</a>
+                </a>
+                </div>
+    
+                
+                
+            </div>
+            
+
+      <!--- How to Cite Section --->
+      <div class="p-5 mb-4 rounded-3" style="background-color: #eeeeef; margin-top: 5%;">
+        <div class="container-fluid py-5" >
+
+          <h2 class="col-md-6" style=" margin-bottom: 1em;">  How to cite the Index </h2>
+          
+          <div style="padding: 0 50px ;">
+            <p>Romelli, D., 2022. <strong><span style="color:#0569b9;"><a style="color:#0569b9;" href="https://academic.oup.com/economicpolicy/advance-article/doi/10.1093/epolic/eiac011/6516019" target="_blank" rel="noopener"><em>The political economy of reforms in central bank design: evidence from a new dataset</em></a></span></strong>. <em>Economic Policy</em> (Open Access).</span></p>
+          </div>
+          
+
+          <p>We advise making explicit reference to the date when the database was consulted, as statistics are subject to revisions.</p>
+    
+        </div>
+      </div>
+
+      <!--- Footer ---> 
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2022 Davide Romelli</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+
+<!--- Scripts ---> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-table@1.20.2/dist/bootstrap-table.min.js"></script>
+</body>
+</html>
