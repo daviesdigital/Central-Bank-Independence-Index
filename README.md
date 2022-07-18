@@ -1,1 +1,1 @@
-# Central-Bank-Independence-Index
+# Central Bank Independence Index
